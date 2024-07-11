@@ -2,6 +2,7 @@
   "name": "file-sharing",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +10,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^5.2.2",
+    "lucide-react": "^0.407.0",
+    "next": "14.2.4",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "postcss": "^8",
